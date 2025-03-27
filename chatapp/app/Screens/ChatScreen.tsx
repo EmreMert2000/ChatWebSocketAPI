@@ -50,6 +50,7 @@ const styles = StyleSheet.create({
   inputContainer: {
     flexDirection: 'row',
     marginVertical: 10,
+    backgroundColor: '#f0f0f0',
   },
   textInput: {
     flex: 1,
