@@ -9,7 +9,7 @@ import React from 'react';
 
 export default function HomeScreen() {
   return (
-    <View>
+    <View style={styles.viewtext}>
       <Text>First Commit</Text>
     </View>  
   );
@@ -31,5 +31,10 @@ const styles = StyleSheet.create({
     bottom: 0,
     left: 0,
     position: 'absolute',
+  },
+  viewtext: {
+    gap: 8,
+    marginBottom: 8,
+    backgroundColor: 'red',
   },
 });
